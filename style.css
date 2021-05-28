@@ -6,15 +6,39 @@ body {
   padding: 0;
 }
 .header {
- 
   font-size: 2em;
   background-color: rgb(38, 133, 243);
-  padding: 4px;
   border: 3px solid black;
 }
 
 .title{
- text-align: center;
  padding: 2px;
  border: 3px solid black;
+}
+
+.menu-bar{
+  left: 0;
+  position: fixed;
+  width: 12em;
+  border-right: solid;
+  
+}
+
+h1{
+  text-align: center;
+}
+
+a{
+  color: rgb(38, 133, 243);
+  font-size: 2em;
+  text-decoration: none;
+}
+a:hover{
+  border: 2px solid rgb(38, 133, 243);
+  background-color: rgb(38, 133, 243);
+  color: whitesmoke;
+}
+
+li{
+  list-style: none;
 }
