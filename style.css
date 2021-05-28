@@ -47,6 +47,10 @@ a:hover{
   color: whitesmoke;
 }
 
+#emailAddress{
+  color: black;
+}
+
 li{
   list-style: none;
 }
