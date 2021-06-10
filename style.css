@@ -2,43 +2,145 @@
 @import url(https://fonts.googleapis.com/css2?family=Courgette&display=swap);
 
 
-body {
-  font-family: 'Open Sans', sans-serif;
+
+/****************************
+******CellPhone queries******
+*****************************/
+@media (max-width: 37.5em) {
+  body {
+    font-family: "Open Sans", sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .footer {
+    display: block;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  .header {
+    overflow: auto;
+    padding-top: 10px;
+    font-family: "Courgette", cursive;
+  }
+
+  .header img,
+  h1 {
+    float: left;
+  }
+
+  .header h1 {
+    padding-left: 25%;
+    padding-top: 1em;
+  }
+
+  .row {
+    padding: 4em;
+  }
+
+  .col-sm-4 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .col-sm-4 {
+    padding-bottom: 2em;
+  }
+
+    #wholeChicken{
+    margin-left: 15px;
+    width: 250px;
+  }
+
+    #eggs {
+    margin-left: 15px;
+    width: 250px;
+  }
+
+    #map {
+      margin-left: 18px;
+    width: 265px;
+    height: auto;
+  }
+
+
 }
 
-* {
-  box-sizing: border-box;
-}
+/****************************
+*****Tablet/Comp queries*****
+*****************************/
+@media screen and (min-width: 37.6em) {
+  body {
+    font-family: "Open Sans", sans-serif;
+  }
 
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  text-align: center;
-  padding-bottom: 15px;
-}
+  * {
+    box-sizing: border-box;
+  }
 
-.header {
-  overflow:auto;
-  padding-top: 10px;
-  font-family: 'Courgette', cursive;
-}
+  .footer {
+    display: block;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+  }
 
-.header img,h1 {
-float: left;
-}
+  .header {
+    overflow: auto;
+    padding-top: 10px;
+    font-family: "Courgette", cursive;
+  }
 
-.header h1 {
-  padding-left: 25%;
-  padding-top: 1em;
-}
+  .header img,
+  h1 {
+    float: left;
+  }
+  #logo {
+    padding-left: 10px;
+  }
 
-.col-sm-4 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
+  #headerImg   {
+    margin-left: 25%;
+    padding-top: 1em;
+  }
 
+  .row {
+    padding: 4em;
+  }
+
+  .col-sm-3 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  #wholeChicken{    
+    width: 250px;
+    height: 168px;
+  }
+
+  #eggs {    
+    width: 283px;
+    height: 168px;
+  }
+
+  #map {
+    width: 300px;
+    height: 168px;
+  }
+  p {
+    text-align: center;
+  }
+}
